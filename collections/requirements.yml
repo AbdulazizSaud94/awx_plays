@@ -1,0 +1,6 @@
+
+---
+collections:
+ - name: https://github.com/F5Networks/f5-ansible-bigip.git#ansible_collections/f5networks/f5_bigip
+   type: git
+   version: devel
