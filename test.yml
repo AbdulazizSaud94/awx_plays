@@ -10,11 +10,6 @@
       server: "test.com"
       validate_certs: false
   tasks:
-    - name: Execute show command to test authentication
-      f5networks.f5_modules.bigip_command:
-        provider: "{{ provider }}"
-        commands:
-          - "tmsh show running-config ltm profile"
     - name: run show version on remote devices
       bigip_command:
        commands: show sys version
